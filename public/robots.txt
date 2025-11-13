@@ -1,0 +1,20 @@
+# Robots.txt para Master Sport FC
+
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /private
+Disallow: /temp
+
+# Permitir acceso a los buscadores principales
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Velocidad de crawl
+Crawl-delay: 1
+
+# Sitemap
+Sitemap: https://andre-dusky.vercel.app/sitemap.xml
